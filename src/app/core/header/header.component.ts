@@ -21,4 +21,8 @@ export class HeaderComponent implements OnInit {
     return this.authService.isAuthenticated();
   }
 
+  onSaveData() { }
+
+  onFetchData() { }
+
 }
